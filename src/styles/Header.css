@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.metamask-wrapper {
+  cursor: pointer;
+}
+body{
+  font-family:'Roboto', sans-serif;
+}
+.alert {
+  display: inline;
+  padding: 0.5rem !important;
+  margin: 0 0.5rem;
+}
+.title{
+  font-size: 80px;
+  font-family:  'Permanent Marker', cursive;;
+  font-weight: bolder;
+  text-shadow: 5px 5px #010b75;
+}
+

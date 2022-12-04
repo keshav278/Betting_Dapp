@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Kanit', sans-serif;
+}

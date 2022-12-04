@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Russo+One&display=swap');
+.home {
+  min-height: calc(100vh - 88px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 20%;
+  background-color: rgb(168, 217, 248);
+}
+body{
+  font-family: 'Russo One',sans-serif;
+}
+
+.accordion {
+  width: 150%;
+  margin: 1rem 0;
+  box-shadow: 10px 10px 10px rgb(4, 48, 78);
+  font-family: 'Russo One',sans-serif;
+  
+}
+
+.accordion-button {
+  background-image: linear-gradient(to right, rgb(5, 55, 99) , rgb(82, 189, 255));
+  color: white !important;
+}
+
+.accordion-body {
+  background: #04202e !important;
+  color: white !important;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.dateWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+
+.dateWrapper span {
+  font-weight: bold;
+}
+
+.imageVSWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.teamImage {
+  height: 60px;
+  border-radius: 0.5rem;
+}
+
+.matchInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.matchDesc span {
+  font-weight: bold;
+}
+
+.imageVSWrapper span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.teamImageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.matches{
+  font-family: 'Russo One',sans-serif;
+  font-size: 50px;
+
+}
